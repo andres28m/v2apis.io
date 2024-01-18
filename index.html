@@ -2,39 +2,55 @@
 	<html lang="es">
 		<head>
 			<meta charset="UTF-8">
-             <title>GRAFICA</title>
+             <title>AMAG CODE</title>
 		</head>
 		<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" rightmargin="0">
 <table width="100%" height="100%" border="1" cellpadding="0" cellspacing="0">
 
 			<!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
-  <div class="tradingview-widget-container__widget"></div>
-  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
-  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
+  <div id="tradingview_49f4a"></div>
+  <div class="tradingview-widget-copyright"><a href="https://es.tradingview.com/symbols/BTCUSDT/?exchange=BINANCE" rel="noopener" target="_blank"><span class="blue-text"></span></a></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+  <script type="text/javascript">
+  new TradingView.widget(
   {
-  "width": "380",
-  "height": "610",
-  "symbol": "KUCOIN:BTCUSDT",
-  "interval": "30",
-  "timezone": "Etc/UTC",
+  "autosize": true,
+  "symbol": "BINANCE:BTCUSDT",
+  "timezone": "Europe/Madrid",
   "theme": "dark",
   "style": "1",
-  "locale": "en",
-  "enable_publishing": false,
+  "locale": "es",
+  "toolbar_bg": "#f1f3f6",
+  "enable_publishing": true,
+  "withdateranges": true,
+  "range": "YTD",
+  "hide_side_toolbar": false,
   "allow_symbol_change": true,
-  "studies": [
-    "STD;UP_DOWN_Volume",
-    "Volume@tv-basicstudies"
+  "watchlist": [
+    "BINANCE:BTCUSDT",
+    "BINANCE:MKRUSDT",
+    "BINANCE:ETHUSDT",
+    "BINANCE:BNBUSDT"
   ],
-  "support_host": "https://www.tradingview.com"
+  "details": true,
+  "hotlist": true,
+  "calendar": true,
+  "studies": [
+    "STD;MA%1Cross",
+    "STD;TEMA",
+    "STD;UP_DOWN_Volume"
+  ],
+  "show_popup_button": true,
+  "popup_width": "1000",
+  "popup_height": "650",
+  "container_id": "tradingview_49f4a"
 }
+  );
   </script>
 </div>
 <!-- TradingView Widget END -->
 		</body>
-		
-    </html>
 		
     </html>
 
