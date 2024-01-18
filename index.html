@@ -1,52 +1,58 @@
-<!-- TradingView Widget BEGIN -->
-<div class="tradingview-widget-container" style="height:100%;width:100%">
-  <div class="tradingview-widget-container__widget" style="height:calc(100% - 32px);width:100%"></div>
-  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
+<! DOCTYPE html>
+	<html lang="es">
+		<head>
+			<meta charset="UTF-8">
+             <title>GRAFICA</title>
+		</head>
+		<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" rightmargin="0">
+<table width="100%" height="100%" border="1" cellpadding="0" cellspacing="0">
+
+			<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div id="tradingview_49f4a"></div>
+  <div class="tradingview-widget-copyright"><a href="https://es.tradingview.com/symbols/BTCUSDT/?exchange=BINANCE" rel="noopener" target="_blank"><span class="blue-text"></span></a></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+  <script type="text/javascript">
+  new TradingView.widget(
   {
   "autosize": true,
-  "symbol": "KUCOIN:BTCUSDT",
-  "interval": "15",
-  "timezone": "Etc/UTC",
+  "symbol": "BINANCE:BTCUSDT",
+  "timezone": "Europe/Madrid",
   "theme": "dark",
   "style": "1",
   "locale": "es",
+  "toolbar_bg": "#f1f3f6",
   "enable_publishing": true,
   "withdateranges": true,
+  "range": "YTD",
+  "hide_side_toolbar": false,
   "allow_symbol_change": true,
-  "save_image": false,
   "watchlist": [
-    "KUCOIN:BTCUSDT",
-    "KUCOIN:ETHUSDT",
-    "KUCOIN:MKRUSDT",
-    "KUCOIN:SOLUSDT",
-    "KUCOIN:XRPUSDT",
-    "KUCOIN:MATICUSDT",
-    "KUCOIN:ADAUSDT",
-    "KUCOIN:LUNCUSDT",
-    "KUCOIN:FTMUSDT",
-    "KUCOIN:BLURUSDT",
-    "KUCOIN:LTCUSDT",
-    "KUCOIN:TRXUSDT",
-    "KUCOIN:VETUSDT",
-    "KUCOIN:AAVEUSDT",
-    "KUCOIN:LUNAUSDT",
-    "KUCOIN:BNBUSDT",
-    "KUCOIN:DOGEUSDT"
+    "BINANCE:BTCUSDT",
+    "BINANCE:MKRUSDT",
+    "BINANCE:ETHUSDT",
+    "BINANCE:BNBUSDT"
   ],
   "details": true,
+  "hotlist": true,
   "calendar": true,
   "studies": [
-    "STD;DEMA",
     "STD;MA%1Cross",
-    "STD;SMA",
+    "STD;TEMA",
     "STD;UP_DOWN_Volume"
   ],
   "show_popup_button": true,
-  "popup_width": "400",
+  "popup_width": "1000",
   "popup_height": "650",
-  
+  "container_id": "tradingview_49f4a"
 }
+  );
   </script>
 </div>
 <!-- TradingView Widget END -->
+		</body>
+		
+    </html>
+		
+    </html>
 
