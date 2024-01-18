@@ -9,44 +9,26 @@
 
 			<!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
-  <div id="tradingview_49f4a"></div>
-  <div class="tradingview-widget-copyright"><a href="https://es.tradingview.com/symbols/BTCUSDT/?exchange=BINANCE" rel="noopener" target="_blank"><span class="blue-text"></span></a></div>
-  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
-  <script type="text/javascript">
-  new TradingView.widget(
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
   {
-  "autosize": true,
-  "symbol": "BINANCE:BTCUSDT",
-  "timezone": "Europe/Madrid",
+  "width": "380",
+  "height": "610",
+  "symbol": "KUCOIN:BTCUSDT",
+  "interval": "30",
+  "timezone": "Etc/UTC",
   "theme": "dark",
   "style": "1",
-  "locale": "es",
-  "toolbar_bg": "#f1f3f6",
-  "enable_publishing": true,
-  "withdateranges": true,
-  "range": "YTD",
-  "hide_side_toolbar": false,
+  "locale": "en",
+  "enable_publishing": false,
   "allow_symbol_change": true,
-  "watchlist": [
-    "BINANCE:BTCUSDT",
-    "BINANCE:MKRUSDT",
-    "BINANCE:ETHUSDT",
-    "BINANCE:BNBUSDT"
-  ],
-  "details": true,
-  "hotlist": true,
-  "calendar": true,
   "studies": [
-    "STD;MA%1Cross",
-    "STD;TEMA",
-    "STD;UP_DOWN_Volume"
+    "STD;UP_DOWN_Volume",
+    "Volume@tv-basicstudies"
   ],
-  "show_popup_button": true,
-  "popup_width": "1000",
-  "popup_height": "650",
-  "container_id": "tradingview_49f4a"
+  "support_host": "https://www.tradingview.com"
 }
-  );
   </script>
 </div>
 <!-- TradingView Widget END -->
